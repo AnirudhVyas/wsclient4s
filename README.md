@@ -8,7 +8,7 @@ Sample usage: (note this is going to change, tune back for changes)
 ```scala
 import monix.execution.Scheduler.Implicits.global
 import sttp.client3.Response
-
+import me.free.client.websocket._
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
